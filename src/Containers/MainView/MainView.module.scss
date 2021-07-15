@@ -1,0 +1,40 @@
+.mainViewContainer{
+  margin: 0 16px;
+  .topicContainer{
+    display: flex;
+    margin-top: 16px;
+    overflow-x: auto;
+    align-items: center;
+    height: 40px;
+    border-radius: 4px;
+    overflow-y: hidden;
+    background: #49494a70;
+    -ms-overflow-style: none;  /* no scrollbar */
+    scrollbar-width: none;
+    &::-webkit-scrollbar {
+      display: none;  /* Safari and Chrome */
+    }
+    .topic{
+      text-transform: capitalize;
+      white-space: nowrap;
+      cursor: pointer;
+      padding: 0px 10px;
+      height: 100%;
+      display: flex;
+      margin: 0;
+      border-radius: 4px;
+      align-items: center;
+      &:hover{
+        color: #ffffff85;
+      }
+      &.active{
+        background: #80808250;
+      }
+    }
+    .active{
+      //font-weight: bolder;
+      //border-radius: 4px;
+      //background: #80808250;
+    }
+  }
+}

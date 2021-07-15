@@ -1,0 +1,48 @@
+.userProfileContainer{
+    padding: 0 16px;
+   .tabContainer{
+     display: flex;
+     flex-direction: column;
+     .tabHeader{
+       display: flex;
+       background: #2E2D2D;
+       width: 100%;
+       border-radius: 4px;
+       overflow: hidden;
+       justify-content: space-around;
+       .tab{
+         cursor: pointer;
+         width: 100%;
+         padding: 8px 0;
+         text-align: center;
+         text-transform: capitalize;
+       }
+       .active{
+         border-radius: 4px;
+         background: #49494a;
+       }
+     }
+     .tabContent{
+
+     }
+   }
+  .topSection{
+    margin-top: 16px;
+    margin-bottom: 30px;
+    div{
+      .profilePhoto{
+        height: 80px;
+        width: 80px;
+        border-radius: 50px;
+        overflow: hidden;
+      }
+      h4{
+        margin-bottom: 8px;
+      }
+      p{
+        margin: 0;
+      }
+    }
+  }
+
+}

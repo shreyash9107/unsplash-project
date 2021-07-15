@@ -1,0 +1,21 @@
+
+.searchContainer{
+  padding: 0 16px;
+  .searchResults{
+    margin: 0 16px;
+  }
+}
+.searchInput{
+  background: #000000;
+  border: none;
+  height: 50px;
+  font-size: 24px;
+  margin-top: 16px;
+  width: 100%;
+  color: #ffffff90;
+  outline: none;
+  border-bottom: 1px solid #808082;
+  &::placeholder{
+    color: #ffffff40;
+  }
+}

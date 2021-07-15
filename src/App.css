@@ -1,0 +1,23 @@
+*{
+  max-width: 375px;
+  box-sizing: border-box;
+}
+body{
+  width: 375px;
+  max-width: 375px;
+  color: #fff;
+  background-color: black;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.App{
+  position: relative;
+}
+.scroller{
+  padding: 66px 0 0 0;
+  margin-bottom: 54px;
+  -webkit-overflow-scrolling: touch;
+  overflow-y: auto;
+}

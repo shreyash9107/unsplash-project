@@ -1,0 +1,89 @@
+.PostContainer{
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(67, 67, 67, 0.44);
+  margin: 16px 0;
+  opacity: 1;
+  transition: opacity 250ms ease-in-out;
+  overflow: hidden;
+  border-radius: 4px;
+
+}
+.related{
+  margin: 0 16px;
+}
+.postHeader{
+  padding: 16px;
+  width: 100%;
+  max-height: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  user-select: none;
+  font-size: 17px;
+}
+
+.profileImageContainer{
+  min-height: 34px; /*60px-16px*/
+  min-width: 34px;
+  border: 1px solid rgba(73, 73, 74, 0.65);
+  max-height: 34px; /*60px-16px*/
+  max-width: 34px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.postImageContainer:hover{
+  cursor: zoom-in;
+}
+.profileImage{
+  height: 34px; /*60px-16px*/
+  width: 34px;
+  border-radius: 50%;
+
+}
+.postImageContainer{
+  display: flex;
+  background-color: #2E2D2D;
+  min-height: 200px;
+  position: relative;
+  .bgColor{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .canvas{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .postImage{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    display: flex;
+  }
+}
+
+.postFooter{
+  padding: 16px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+}
+.postFooterButton{
+  height: 28px;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border:1px solid #49494a;
+  border-radius: 4px;
+}
